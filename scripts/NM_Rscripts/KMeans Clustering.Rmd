@@ -1,0 +1,12 @@
+---
+title: "KMeans Clustering"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+http://www.business-science.io/business/2016/08/07/CustomerSegmentationPt1.html
+
+Example, trying to cluster bike shop customers based on their bike buying preferences.Finds groups based on k-means euclidean distance. The closer they are to each other, the shorter the distance, and the more likely they are to be clumped together into a group.
